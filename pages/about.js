@@ -24,10 +24,10 @@ export default function Home() {
   return (
     <main>
     <Header select = 'about'/>
-   <div className='relative flex flex-col items-center overflow-hidden h-[700px] '>
+   <div className='relative flex flex-col items-center overflow-hidden sm:h-[700px] h-[400px]'>
    <Image src = {background} layout='fit' fill alt='backgroung image' quality={100}></Image>
    <div className='z-10 pt-24 space-y-8 flex flex-col items-center'>
-   <div className=" text-yellow-500 text-2xl sm:text-7xl font-semibold animate-bounce">Welcome to StudyUSA EXPERTS</div>
+   <div className=" text-yellow-500 text-2xl sm:text-4xl  lg:text-7xl font-semibold animate-bounce">Welcome to StudyUSA EXPERTS</div>
         <div className="m-5">
             <button className="rounded-full hover:scale-110 px-6 sm:px-10 py-3 sm:py-4 hover:drop-shadow-2xl text-xs sm:text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
             <FontAwesomeIcon  icon={faPhone} className='me-2'/>  Contact Us</button>

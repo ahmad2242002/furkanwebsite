@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <main>
     <Header select = 'home'/>
-   <div className='relative flex flex-col items-start overflow-hidden h-[700px]'>
+   <div className='relative flex flex-col items-start overflow-hidden sm:h-[700px] h-[400px]'>
    <Image src = {background} layout='fit' fill alt='backgroung image' quality={100}></Image>
    <div className='z-10 pt-20 ps-10 space-y-8 flex flex-col items-center'>
-    <div className=" text-yellow-500 text-5xl font-semibold">International Education Consultants</div>
+    <div className=" text-yellow-500 text-3xl sm:text-5xl font-semibold">International Education Consultants</div>
     <div className="text-black text-xl font-semibold">Study USA Expert: Your Gateway to World-Class Education</div>
         <div className="m-5">
             <button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">

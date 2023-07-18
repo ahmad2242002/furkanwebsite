@@ -13,7 +13,7 @@ export default class Footer extends Component {
   render() {
     return (
         <footer>
-        <div className = " mt-36 px-28 py-14  bg-gray-100 grid grid-cols-1 lg:grid-cols-3 lg:justify-center justify-start">
+        <div className = " mt-36 px-10 sm:px-28 py-14  bg-gray-100 grid grid-cols-1 lg:grid-cols-3 lg:justify-center justify-start">
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
                 <div className=' items-start space-y-4'>
                 <li className = " text-xl font-bold list-none">Social Networks</li>
