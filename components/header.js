@@ -21,13 +21,14 @@ import { document } from 'postcss';
             <Image src = {logo} layout='fit' fill alt='Logo of company' quality={100}></Image>
              </div>
              <div className=" max-sm:mt-10 justify-end items-center sm:flex mx-1 h-auto w-full block flex-grow">
+             
                 {
                   select == 'home'? 
-                  <div  className='border-2 flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32 hover:cursor-pointer'>
+                  <div  className='border-2 flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32 hover:cursor-pointer py-3 px-3 mx-2'>
                     <Link href ="/">Home</Link>
                  </div>
                  :
-                 <div  className='flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32 hover:cursor-pointer'>
+                 <div  className='flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32 hover:cursor-pointer py-3 px-3 mx-2'>
                     <Link href = "/">Home</Link>
                  </div>
                 }
