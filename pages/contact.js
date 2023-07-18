@@ -22,7 +22,7 @@ export default function Home() {
     <Header select = 'contact'/>
    <div className="lg:mx-44 md:mx-20 sm:mx-10 mx-5 my-5 flex flex-col justify-center items-center">
         <div className="text-6xl flex font-semibold m-auto items-center">Contact Us</div>
-        <div className="grid max-sm:mx-20 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:space-x-10 space-y-10">
+        <div className="grid  grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:space-x-10 space-y-10">
            <div className='flex flex-col items-start p-5 border-b-4 border-blue-900 sm:ms-10 mt-10 bg-slate-300 rounded-3xl'>
                 <h1 className=' font-bold text-3xl'>By Phone us</h1>
                 <br></br>

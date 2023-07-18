@@ -16,11 +16,11 @@ import { document } from 'postcss';
 
   const Header = ({select})=>{ {
     return (
-         <div className="max-w-full justify-center items-center sm:sticky top-0 z-20 grid grid-cols-1 sm:grid-cols-2 bg-blue-950 p-2 drop-shadow-lg">
-            <div className="justify-center relative items-center mx-5 h-24 w-36">
+         <div className="max-w-full justify-center  max-sm:justify-items-center items-center sm:sticky top-0 z-20 grid grid-cols-1 sm:grid-cols-2 bg-blue-950 p-2 drop-shadow-lg">
+            <div className="justify-center  relative items-center mx-5 h-24 w-36">
             <Image src = {logo} layout='fit' fill alt='Logo of company' quality={100}></Image>
              </div>
-             <div className=" max-sm:mt-10 justify-end items-center  max-sm:space-y-5 sm:flex h-auto w-full block flex-grow">
+             <div className=" max-sm:mt-10  max-sm:justify-center justify-end relative items-center   max-sm:space-y-5 sm:flex ">
                 {
                   select == 'home'? 
                   <Link href ="/">

@@ -17,9 +17,9 @@ export default class Footer extends Component {
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
                 <div className=' items-start space-y-4'>
                 <li className = " text-xl font-bold list-none">Social Networks</li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faFacebook} className=" text-blue-500"/> Facebook</li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faInstagram} className=" text-purple-500"/> Instagram</li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faWhatsapp} className=" text-green-500"/> Whatsapp</li>
+                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faFacebook} className=" text-blue-500"/><a href='https://www.facebook.com/profile.php?id=100094619656632&mibextid=ZbWKwL'> Facebook</a></li>
+                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faInstagram} className=" text-purple-500"/><a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ=='> Instagram</a></li>
+                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faWhatsapp} className=" text-green-500"/><Link href={'/contact'}> Whatsapp</Link></li>
                 <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faLinkedin} className=" text-blue-500"/> Linkedin</li>
                 <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faTwitter} className=" text-blue-500"/> Twitter</li>
                 </div>
