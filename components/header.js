@@ -23,30 +23,47 @@ import { document } from 'postcss';
              <div className=" max-sm:mt-10 justify-end items-center  max-sm:space-y-5 sm:flex h-auto w-full block flex-grow">
                 {
                   select == 'home'? 
+                  <Link href ="/">
                   <div  className="border-2 flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32  hover:cursor-pointer py-3 px-3 mx-2">
-                    <Link href ="/">Home</Link>
+                    Home
                  </div>
+                 </Link>
                  :
+                 <Link href ="/">
                  <div  className='flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32 hover:cursor-pointer py-3 px-3 mx-2'>
-                    <Link href = "/">Home</Link>
+                    Home
                  </div>
+                 </Link>
                 }
                 
                  {
                   select == 'about' ?
+                  <Link href ="/about">
                   <div className="border-2 flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32  hover:cursor-pointer py-3 px-3 mx-2">
-                  <Link href ="/about">About Us</Link>
+                  About Us
                  </div>
+                 </Link>
                  :
+                 <Link href ="/about">
                   <div className=" flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32  hover:cursor-pointer py-3 px-3 mx-2">
-                  <Link href ="/about">About Us</Link>
+                  About Us
                  </div>
+                 </Link>
+                 }
+                 {
+                  select == 'contact' ?
+                  <Link href ="/contact"><div className="border-2 flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32  hover:cursor-pointer py-3 px-3 mx-2">
+                  Contact Us
+                 </div>
+                 </Link>
+                 :
+                 <Link href ="/contact">
+                  <div className=" flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32  hover:cursor-pointer py-3 px-3 mx-2">
+                  Contact Us
+                 </div>
+                 </Link>
                  }
                 
-
-                 <div className=" flex items-center justify-center text-white rounded-lg hover:scale-105 hover:text-black text-lg font-semibold hover:bg-slate-100 h-1/2 w-32  hover:cursor-pointer py-3 px-3 mx-2">
-                     Contact Us
-                 </div>
           
              </div>
           </div>

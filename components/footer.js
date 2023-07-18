@@ -13,7 +13,7 @@ export default class Footer extends Component {
   render() {
     return (
         <footer>
-        <div className = " mt-36 px-10 sm:px-28 py-14  bg-gray-100 grid grid-cols-1 lg:grid-cols-3 lg:justify-center justify-start">
+        <div className = " mt-36 px-10 sm:px-28 py-14  bg-gray-100 grid grid-cols-1  max-lg:space-y-10 lg:grid-cols-3 lg:justify-center justify-start">
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
                 <div className=' items-start space-y-4'>
                 <li className = " text-xl font-bold list-none">Social Networks</li>
@@ -38,7 +38,7 @@ export default class Footer extends Component {
             <li className = " text-xl font-bold list-none">Pages</li>
             <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faHome} className=" text-blue-500"/> <Link href ="/"> Home</Link></li>
             <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faInfo} className="  me-3 text-blue-500"/> <Link href ="/about">  About</Link> </li>
-            <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-black"/> Contact US</li>
+            <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-black"/> <Link href={'/contact'}>Contact US</Link></li>
             </div>
             </div>
         </div>
