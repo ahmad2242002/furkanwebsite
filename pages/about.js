@@ -24,12 +24,12 @@ export default function Home() {
   return (
     <main>
     <Header select = 'about'/>
-   <div className='relative flex flex-col items-center overflow-hidden h-[700px]'>
+   <div className='relative flex flex-col items-center overflow-hidden h-[700px] '>
    <Image src = {background} layout='fit' fill alt='backgroung image' quality={100}></Image>
    <div className='z-10 pt-24 space-y-8 flex flex-col items-center'>
-   <div className=" text-yellow-500 text-7xl font-semibold animate-bounce">Welcome to StudyUSA Expert</div>
+   <div className=" text-yellow-500 text-2xl sm:text-7xl font-semibold animate-bounce">Welcome to StudyUSA EXPERTS</div>
         <div className="m-5">
-            <button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
+            <button className="rounded-full hover:scale-110 px-6 sm:px-10 py-3 sm:py-4 hover:drop-shadow-2xl text-xs sm:text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
             <FontAwesomeIcon  icon={faPhone} className='me-2'/>  Contact Us</button>
         </div>
         </div>
@@ -39,8 +39,8 @@ export default function Home() {
      A leading educational consultancy firm dedicated to helping students fulfill their dreams of pursuing higher education in the United States. With years of experience and a team of highly skilled professionals, we are committed to providing comprehensive guidance and support to students at every step of their journey towards academic success.
     </div>
         <div className="text-5xl font-semibold my-8 p-1">Our Core Survices</div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 space-x-10 space-y-10">
-           <div className='flex flex-col items-center p-5 border-b-4 border-blue-900 ms-10 mt-10'>
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:space-x-10 space-y-10">
+           <div className='flex flex-col items-center p-5 border-b-4 border-blue-900 sm:ms-10 mt-10'>
                 <h1 className=' font-bold text-xl'>Personalized Counseling</h1>
                 <br></br>
                 <div className=' relative w-full h-48 mb-5'>
@@ -99,16 +99,16 @@ export default function Home() {
            <br></br>
         </div>
     </div>
-    <div className=' grid grid-cols-2 h-auto w-100 lg:mx-44 md:mx-20 sm:mx-10 mx-5 my-20'>
-        <div className=' relative'>
+    <div className=' grid grid-cols-1 sm:grid-cols-2 h-auto w-100 lg:mx-44 md:mx-20 sm:mx-10 mx-5 my-20'>
+        <div className=' relative max-sm:h-72'>
         <Image src = {waiting} layout='fit' fill alt='image' className=' rounded-lg' quality={100}></Image>
         </div>
         <div className='z-10 pt-20 ps-10 space-y-8 flex flex-col items-center'>
-        <div className=" text-yellow-500 text-5xl font-semibold">International Education Consultants</div>
+        <div className=" text-yellow-500 md:text-5xl text-3xl font-semibold">International Education Consultants</div>
         <div className="text-black text-lg font-semibold">StudyUSA Expert is a renowned educational consultancy firm committed to assisting students in pursuing higher education in the United States. With personalized counseling, university selection, application assistance, standardized test preparation, visa support, scholarship and financial aid assistance, and pre-departure guidance, they provide comprehensive guidance and support at every stage of the academic journey. Their experienced team aims to empower students with the knowledge and resources needed to make informed decisions, ensuring a smooth and successful transition to world-class education and future success.</div>
             <div className="m-5">
-                <button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
-                <FontAwesomeIcon  icon={faPhone} className='me-2'/>  Contact Us</button>
+                <button className="rounded-full hover:scale-110 px-5 sm:px-10 py-2 sm:py-4 hover:drop-shadow-2xl text-xs sm:text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
+                <FontAwesomeIcon  icon={faPhone} className='sm:me-2'/>  Contact Us</button>
             </div>
             </div>
     </div>
