@@ -22,7 +22,7 @@ function Gridcomponent(props) {
         <div className=' relative w-full h-48 mb-5'>
         <Image src = {props.image} layout='fit' fill alt='backgroung image 2' className=' rounded-lg' quality={100}></Image>
         </div>
-        <p className=' text-center font-medium  text-lg pb-3'>{props.para}</p>
+        <p className=' text-center font-medium  text-base sm:text-lg pb-3'>{props.para}</p>
         <Link href={props.link} className=' hover:scale-125 flex space-x-2 items-center text-lg'><p>Read more</p><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></Link>
    </div>
     )

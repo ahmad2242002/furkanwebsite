@@ -40,7 +40,7 @@ export default class Footer extends Component {
                 </div>
             </div>
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
-            <div className=' items-start space-y-4 '>
+            <div className=' items-start space-y-4 text-sm sm:text-base'>
             <li className = " text-3xl font-bold list-none">Address</li>
                 <a href='https://g.co/kgs/yc3JVJ' target="_blank"><li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faLocationDot} className=" text-white me-2"/>117 B People Colony, near to Samosa chowk, D Ground, Faisalabad, 03822</li></a>
                 <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faEnvelope} className=" text-white me-2"/>consultancy@studyusaexpert.me</li>

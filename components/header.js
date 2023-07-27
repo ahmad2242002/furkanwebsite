@@ -29,7 +29,7 @@ import {
         </div>
 
          <div className="max-w-full sm:px-32 justify-center  max-sm:justify-items-center items-center sm:sticky top-0 z-20 grid grid-cols-1 sm:grid-cols-2 bg-[#0b2545] p-1 drop-shadow-lg">
-            <div className="justify-center  relative items-center mx-5 h-16 w-36">
+            <div className="justify-center  relative items-center mx-5 h-16 w-32">
             <Image src = {logo} layout='fit' fill alt='Logo of company' quality={100}></Image>
              </div>
              <div className=" max-sm:mt-10  max-sm:justify-center justify-end relative items-center   max-sm:space-y-5 sm:flex ">

@@ -9,7 +9,7 @@ function Gridcomponent2(props) {
         </div>
         <h1 className=' font-bold text-[#134074] sm:text-3xl text-2xl'>{props.heading}</h1>
         <br></br>
-        <p className=' text-justify font-semibold text-gray-600  text-lg pb-3'>{props.para}</p>
+        <p className=' text-justify font-semibold text-gray-600  text-base sm:text-lg pb-3'>{props.para}</p>
    </div>
     )
 }

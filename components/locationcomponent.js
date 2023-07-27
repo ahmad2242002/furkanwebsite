@@ -16,7 +16,7 @@ function Locationcomponent(props) {
       <h1 className=" font-bold text-[#134074] sm:text-3xl text-2xl px-5">
         {props.heading}
       </h1>
-      <p className=" text-justify font-semibold text-gray-600  text-lg p-5">
+      <p className=" text-justify font-semibold text-gray-600  text-base sm:text-lg p-5">
         {props.para}
       </p>
     </div>

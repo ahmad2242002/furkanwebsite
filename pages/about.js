@@ -32,7 +32,7 @@ export default function Home() {
           quality={100}
         ></Image>
         <div className="z-10 pt-24 space-y-8 flex flex-col items-center">
-          <div className=" text-yellow-500 text-2xl sm:text-4xl  lg:text-7xl font-semibold animate-bounce">
+          <div className=" text-blue-900 text-2xl sm:text-4xl  lg:text-7xl font-semibold animate-bounce">
             Welcome to StudyUSA EXPERTS
           </div>
           <div className="m-5">
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
       <div className="lg:mx-44 md:mx-20 sm:mx-10 mx-5 my-5">
-        <div className="text-black text-xl font-semibold text-justify my-10  p-10 rounded-lg bg-[#8da9c4] ">
+        <div className="text-black sm:text-xl text-base font-semibold text-justify my-10  p-10 rounded-lg bg-[#8da9c4] ">
           A leading educational consultancy firm dedicated to helping students
           fulfill their dreams of pursuing higher education in the United
           States. With years of experience and a team of highly skilled
@@ -53,7 +53,7 @@ export default function Home() {
           and support to students at every step of their journey towards
           academic success.
         </div>
-        <div className="text-5xl font-semibold my-8 p-1 bg-blue-950 text-white rounded-lg text-center py-3">Our Core Services</div>
+        <div className="sm:text-5xl text-3xl font-semibold my-8 p-1 bg-blue-950 text-white rounded-lg text-center py-3">Our Core Services</div>
         <div className="grid grid-cols-1 sm:grid-cols-2  sm:space-x-10 space-y-10">
         <Gridcomponent2  heading = {"Personalized Counseling"} image = {Counseling} para= {"At StudyUSA Expert, we understand that every student is unique with distinct aspirations and academic backgrounds. Our expert counselors take the time to understand your goals, interests, and  preferences to provide personalized guidance that aligns with your academic and career aspirations"}></Gridcomponent2>
 
@@ -78,7 +78,7 @@ export default function Home() {
    <div className=' grid grid-cols-1 sm:grid-cols-2 items-center'>
         <Image src = {waiting}  alt='image' quality={100}></Image>
         <div className='z-10 pt-10 sm:px-10 space-y-8 flex flex-col items-center '>
-        <div className="text-black text-lg font-semibold text-justify ">StudyUSA Expert is a renowned educational consultancy firm committed to assisting students in pursuing higher education in the United States. With personalized counseling, university selection, application assistance, standardized test preparation, visa support, scholarship and financial aid assistance, and pre-departure guidance, they provide comprehensive guidance and support at every stage of the academic journey. Their experienced team aims to empower students with the knowledge and resources needed to make informed decisions, ensuring a smooth and successful transition to world-class education and future success.</div>
+        <div className="text-black sm:text-lg text-sm font-semibold text-justify ">StudyUSA Expert is a renowned educational consultancy firm committed to assisting students in pursuing higher education in the United States. With personalized counseling, university selection, application assistance, standardized test preparation, visa support, scholarship and financial aid assistance, and pre-departure guidance, they provide comprehensive guidance and support at every stage of the academic journey. Their experienced team aims to empower students with the knowledge and resources needed to make informed decisions, ensuring a smooth and successful transition to world-class education and future success.</div>
         <div className="m-5">
             <Link href={"/contact"}>
               <button className="rounded-full hover:scale-110 px-5 sm:px-10 py-2 sm:py-4 hover:drop-shadow-2xl text-xs sm:text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
