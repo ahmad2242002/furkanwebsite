@@ -46,7 +46,7 @@ export default class Footer extends Component {
                 <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faEnvelope} className=" text-white me-2"/>consultancy@studyusaexpert.me</li>
                 <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white me-2"/>+92 3087139898</li>
                 <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white me-2"/>+92 315 6910138</li>
-                <li className = "text-lg font-semibold list-none"><a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><FontAwesomeIcon  icon={faCalendar} className=" text-white me-2"/>Set Appointment</a></li>
+                <li className = "text-lg font-semibold list-none"><a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><FontAwesomeIcon  icon={faCalendar} className=" text-white me-2"/>Book Appointment</a></li>
                 </div>
             </div>
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">

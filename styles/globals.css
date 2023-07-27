@@ -20,7 +20,7 @@ input::-webkit-inner-spin-button {
     background-color: transparent;
   }
 *{
-  font-family: 'Times New Roman', Times, serif;
+  font-family:sans-serif;
 }
 .scroll-container {
   scroll-behavior: smooth; /* Add smooth scrolling behavior */

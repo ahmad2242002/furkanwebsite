@@ -1,14 +1,6 @@
 import React, { Component } from 'react'
 import Image from 'next/image'
 import Link from 'next/link.js';
-
-import Counseling from '../images/counseling.jpg'
-import Selection from '../images/selection.jpg'
-import assistant from '../images/application.jpg'
-import test from '../images/test.jpg'
-import visa from '../images/visa.jpg'
-import scholarship from '../images/scholarship.jpg'
-import departure from '../images/departure.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,faArrowRight

@@ -9,7 +9,7 @@ import waiting from '../images/waiting.jpg'
 import Link from 'next/link.js';
 import Gridcomponent from '@/components/gridcomponent.js'
 import Locationcomponent from '@/components/locationcomponent.js'
-import Counseling from '../images/counseling.jpg'
+import Counseling from '../images/counseling.webp'
 import Selection from '../images/selection.jpg'
 import assistant from '../images/application.jpg'
 import test from '../images/test.jpg'
