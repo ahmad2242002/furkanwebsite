@@ -28,33 +28,33 @@ export default class Footer extends Component {
           </div>
         </div>
         <hr></hr>
-        <div className = "  pb-5 grid grid-cols-1  max-lg:space-y-10 lg:grid-cols-3 lg:justify-evenly justify-start">
+        <div className = " text-gray-400  pb-5 grid grid-cols-1  max-lg:space-y-10 lg:grid-cols-3 lg:justify-evenly justify-start">
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
                 <div className=' items-start space-y-4'>
-                <li className = " text-3xl font-bold list-none">Social Networks</li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faFacebook} className=" text-blue-500"/><a href='https://www.facebook.com/profile.php?id=100094619656632&mibextid=ZbWKwL' target="_blank"> Facebook</a></li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faInstagram} className=" text-purple-500"/><a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ==' target="_blank"> Instagram</a></li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faWhatsapp} className=" text-green-500"/><a href=' https://wa.me/message/JGTZIMMV5EDLH1'> Whatsapp</a></li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faLinkedin} className=" text-blue-500"/><a href='https://www.linkedin.com/company/studyusa-experts/'> Linkedin</a></li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faTwitter} className=" text-blue-500"/><a href='https://twitter.com/studyusaexperts' target="_blank"> Twitter</a></li>
+                <li className = " text-3xl font-bold list-none text-gray-100">Social Networks</li>
+                <li className = "text-base hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faFacebook} className=" text-blue-500"/><a href='https://www.facebook.com/profile.php?id=100094619656632&mibextid=ZbWKwL' target="_blank"> Facebook</a></li>
+                <li className = "hover:text-slate-50 text-base font-semibold list-none"><FontAwesomeIcon  icon={faInstagram} className=" text-purple-500"/><a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ==' target="_blank"> Instagram</a></li>
+                <li className = "hover:text-slate-50 text-base font-semibold list-none"><FontAwesomeIcon  icon={faWhatsapp} className=" text-green-500"/><a href=' https://wa.me/message/JGTZIMMV5EDLH1'> Whatsapp</a></li>
+                <li className = "hover:text-slate-50 text-base font-semibold list-none"><FontAwesomeIcon  icon={faLinkedin} className=" text-blue-500"/><a href='https://www.linkedin.com/company/studyusa-experts/'> Linkedin</a></li>
+                <li className = "hover:text-slate-50 text-base font-semibold list-none"><FontAwesomeIcon  icon={faTwitter} className=" text-blue-500"/><a href='https://twitter.com/studyusaexperts' target="_blank"> Twitter</a></li>
                 </div>
             </div>
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
             <div className=' items-start space-y-4 text-sm sm:text-base'>
-            <li className = " text-3xl font-bold list-none">Address</li>
-                <a href='https://g.co/kgs/yc3JVJ' target="_blank"><li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faLocationDot} className=" text-white me-2"/>117 B People Colony, near to Samosa chowk, D Ground, Faisalabad, 03822</li></a>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faEnvelope} className=" text-white me-2"/><a href="mailto:consultancy@studyusaexpert.me">consultancy@studyusaexpert.me</a></li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white me-2"/>+92 3087139898</li>
-                <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white me-2"/>+92 315 6910138</li>
-                <li className = "text-lg font-semibold list-none"><a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><FontAwesomeIcon  icon={faCalendar} className=" text-white me-2"/>Book Appointment</a></li>
+            <li className = " text-3xl font-bold list-none text-gray-100">Address</li>
+                <li className = "hover:text-slate-50 text-sm font-semibold list-none"><FontAwesomeIcon  icon={faLocationDot} className=" text-white me-2"/><a href='https://g.co/kgs/yc3JVJ' target="_blank">117 B People Colony, near to Samosa chowk, D Ground, Faisalabad, 03822</a></li>
+                <li className = "text-sm hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faEnvelope} className=" text-white me-2"/><a href="mailto:consultancy@studyusaexpert.me">consultancy@studyusaexpert.me</a></li>
+                <li className = "text-sm hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white me-2"/>+92 3087139898</li>
+                <li className = "text-sm hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white me-2"/>+92 315 6910138</li>
+                <li className = " text-sm hover:text-slate-50 font-semibold list-none"><a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><FontAwesomeIcon  icon={faCalendar} className=" text-white me-2"/>Book Appointment</a></li>
                 </div>
             </div>
             <div className = " flex flex-col space-y-4 my-3 lg:items-center items-start">
             <div className=' items-start space-y-4'>
-            <li className = " text-3xl font-bold list-none">Pages</li>
-            <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faHome} className=" text-blue-500"/> <Link href ="/"> Home</Link></li>
-            <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faInfo} className="  me-3 text-blue-500"/> <Link href ="/about">  About</Link> </li>
-            <li className = "text-lg font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white"/> <Link href={'/contact'}>Contact US</Link></li>
+            <li className = " text-3xl font-bold list-none text-gray-100">Pages</li>
+            <li className = "text-base hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faHome} className=" text-blue-500"/> <Link href ="/"> Home</Link></li>
+            <li className = "text-base hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faInfo} className="  me-3 text-blue-500"/> <Link href ="/about">  About</Link> </li>
+            <li className = "text-base hover:text-slate-50 font-semibold list-none"><FontAwesomeIcon  icon={faPhone} className=" text-white"/> <Link href={'/contact'}>Contact US</Link></li>
             </div>
             </div>
         </div>
