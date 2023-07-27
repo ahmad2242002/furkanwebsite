@@ -9,7 +9,7 @@ import {
 function Gridcomponent(props) {
     return (
         <div className='flex flex-col items-center p-5 bg-white rounded-md shadow-lg drop-shadow-lg sm:ms-10 mt-10 hover:-translate-y-3 hover:cursor-pointer duration-200'>
-        <h1 className=' font-bold text-[#134074] text-2xl'>{props.heading}</h1>
+        <h1 className=' font-bold text-[#134074] text-2xl text-center'>{props.heading}</h1>
         <br></br>
         <div className=' relative w-full h-48 mb-5'>
         <Image src = {props.image} layout='fit' fill alt='backgroung image 2' className=' rounded-lg' quality={100}></Image>

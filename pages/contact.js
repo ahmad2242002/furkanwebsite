@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
                 <p className=' text-center text-2xl font-semibold  pb-3'>Email us to find out more</p>
                 <p className=' text-start text-lg font-semibold pb-3'>Email</p>
-                <p className=' text-start font-normal   pb-3'><FontAwesomeIcon  icon={faEnvelope} className=" text-black me-2"/> consultancy@studyusaexpert.me</p>
+                <p className=' text-start font-normal   pb-3'><FontAwesomeIcon  icon={faEnvelope} className=" text-black me-2"/><a href="mailto:consultancy@studyusaexpert.me"> consultancy@studyusaexpert.me</a></p>
            </div>
            <div className='flex flex-col items-start p-5 border-b-4 border-blue-900 bg-slate-300 rounded-3xl'>
                 <h1 className=' font-bold text-3xl'>By Visiting us</h1>
@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
                 <p className=' text-center text-2xl font-semibold  pb-3'>Visit us to find out more</p>
                 <p className=' text-start text-lg font-semibold pb-3'>Address</p>
-                <p className=' text-start font-normal   pb-3'><FontAwesomeIcon  icon={faLocationDot} className=" text-black me-2"/>117 B People Colony, near to Samosa chowk, D Ground, Faisalabad, 03822</p>
+                <p className=' text-start font-normal   pb-3'> <a href='https://g.co/kgs/yc3JVJ' target="_blank"><FontAwesomeIcon  icon={faLocationDot} className=" text-black me-2"/>117 B People Colony, near to Samosa chowk, D Ground, Faisalabad, 03822</a></p>
            </div>
            <br></br>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
         <a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
             <FontAwesomeIcon  icon={faCalendar} className='me-2'/>Book Appointment</button>
             </a>
-            <a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
+            <a target="_blank" href='https://wa.me/message/JGTZIMMV5EDLH1'><button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
             <FontAwesomeIcon  icon={faWhatsapp} className=' text-lg me-2'/>Whatsapp</button>
             </a>
 </div>

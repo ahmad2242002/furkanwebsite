@@ -22,7 +22,7 @@ import {
           <a href='https://www.facebook.com/profile.php?id=100094619656632&mibextid=ZbWKwL'><FontAwesomeIcon  icon={faFacebook} className=" text-blue-500 hover:scale-125"/></a>
           <a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ=='><FontAwesomeIcon  icon={faInstagram} className="hover:scale-125 text-[#c13584] rounded-md"/></a>
           <a href=' https://wa.me/message/JGTZIMMV5EDLH1'><FontAwesomeIcon  icon={faWhatsapp} className="hover:scale-125 text-green-500"/></a>
-          <a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ=='><FontAwesomeIcon  icon={faLinkedin} className="hover:scale-125 text-blue-500"/></a>
+          <a href='https://www.linkedin.com/company/studyusa-experts/'><FontAwesomeIcon  icon={faLinkedin} className="hover:scale-125 text-blue-500"/></a>
           <a href='https://twitter.com/studyusaexperts'><FontAwesomeIcon  icon={faTwitter} className="hover:scale-125 text-blue-500"/></a>
         </div>
 

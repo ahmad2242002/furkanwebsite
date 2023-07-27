@@ -53,7 +53,7 @@ const scrollRight = () => {
    <Image className=' opacity-50 xl:opacity-95 ' src = {background} layout='fit' fill alt='backgroung image' quality={100}></Image>
    <div className='z-10 pt-20 xl:ps-10 space-y-8 flex flex-col items-center text-center'>
     <div className=" text-blue-900 text-3xl sm:text-5xl font-semibold">International Education Consultants</div>
-    <div className="text-black text-lg sm:text-xl font-semibold">Your Gateway to World-Class Education</div>
+    <div className="text-white text-lg sm:text-xl font-semibold">Your Gateway to World-Class Education</div>
         <div className="m-5">
         <Link href={'/contact'}>
             <button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
@@ -65,8 +65,8 @@ const scrollRight = () => {
    <div className = " flex space-x-6 sm:w-2/3 h-24 justify-evenly text-3xl items-center bg-[#134074] text-white px-2 sm:px-5 py-1 rounded-xl font-bold">
           <a href='https://www.facebook.com/profile.php?id=100094619656632&mibextid=ZbWKwL' className='hover:bg-blue-500 hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black items-center justify-center flex bg-white rounded-full'><FontAwesomeIcon  icon={faFacebookF} className=" "/></a>
           <a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ==' className='hover:bg-[#c13584] hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black items-center justify-center flex bg-white rounded-full'><FontAwesomeIcon  icon={faInstagram}/></a>
-          <Link href={'/contact'} className='hover:bg-green-500 hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black items-center justify-center flex bg-white rounded-full'><FontAwesomeIcon  icon={faWhatsapp}/></Link>
-          <a href='https://instagram.com/studyusa.experts?igshid=ZDc4ODBmNjlmNQ==' className='hover:bg-blue-500 hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black items-center justify-center flex bg-white rounded-full'><FontAwesomeIcon  icon={faLinkedin}/></a>
+          <a href='https://wa.me/message/JGTZIMMV5EDLH1' className='hover:bg-green-500 hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black items-center justify-center flex bg-white rounded-full'><FontAwesomeIcon  icon={faWhatsapp}/></a>
+          <a href='https://www.linkedin.com/company/studyusa-experts/' className='hover:bg-blue-500 hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black items-center justify-center flex bg-white rounded-full'><FontAwesomeIcon  icon={faLinkedin}/></a>
           <a href='https://twitter.com/studyusaexperts' className='hover:bg-blue-500 hover:text-white hover:translate-y-2 duration-200  hover:scale-125 h-12 w-12 text-black bg-white rounded-full items-center justify-center flex'><FontAwesomeIcon  icon={faTwitter}/></a>
           </div>
         </div>
