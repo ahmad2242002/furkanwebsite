@@ -5,15 +5,15 @@ import Header from '@/components/header.js'
 import call from '../images/call.png'
 import email from '../images/email.png'
 import visit from '../images/visit.webp'
-
-
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
   faEnvelope,
-  faLocationDot
+  faLocationDot,
+  faCalendar
   } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -57,6 +57,14 @@ export default function Home() {
            </div>
            <br></br>
         </div>
+        <div  className=' flex space-x-2'>
+        <a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
+            <FontAwesomeIcon  icon={faCalendar} className='me-2'/>Set Appointment</button>
+            </a>
+            <a target="_blank" href='https://calendar.app.google/nAbsG1nAi1bhpMq38'><button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
+            <FontAwesomeIcon  icon={faWhatsapp} className=' text-lg me-2'/>Whatsapp</button>
+            </a>
+</div>
     </div>
     <Footer/>
    </main>
