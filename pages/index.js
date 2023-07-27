@@ -53,7 +53,7 @@ const scrollRight = () => {
    <Image className=' opacity-50 xl:opacity-95 ' src = {background} layout='fit' fill alt='backgroung image' quality={100}></Image>
    <div className='z-10 pt-20 xl:ps-10 space-y-8 flex flex-col items-center text-center'>
     <div className=" text-blue-900 text-3xl sm:text-5xl font-semibold">International Education Consultants</div>
-    <div className="text-white text-lg sm:text-xl font-semibold">Your Gateway to World-Class Education</div>
+    <div className="text-black text-lg sm:text-xl font-semibold">Your Gateway to World-Class Education</div>
         <div className="m-5">
         <Link href={'/contact'}>
             <button className="rounded-full hover:scale-110 px-10 py-4 hover:drop-shadow-2xl text-base text-white font-bold  bg-blue-950 drop-shadow-md active:scale-90 transition duration-200">
