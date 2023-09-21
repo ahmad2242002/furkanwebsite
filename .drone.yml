@@ -3,18 +3,22 @@ name: default
 
 steps:
   - name: install_dependencies
-    image: node:14
+    image: node:14  # Use a Node.js version compatible with your Next.js project
     commands:
       - npm install
 
   - name: build
     image: node:14
     commands:
+      - npx create-next-app my-next-app  # Create a new Next.js app if not already created
+      - cd my-next-app
+      - npm install  # Install project dependencies
       - npm run build
 
   - name: test
     image: node:14
     commands:
+      - cd my-next-app
       - npm test
 
   - name: deploy
