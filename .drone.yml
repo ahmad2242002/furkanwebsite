@@ -19,12 +19,3 @@ steps:
     commands:
       - cd my-next-app
       - npm test
-
-  - name: deploy
-    image: alpine
-    commands:
-      - apk add --update openssh-client  # Install SSH client (or use a custom image with SSH pre-installed)
-      - mkdir -p ~/.ssh
-      - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa  # Add your SSH private key
-      - chmod 600 ~/.ssh/id_rsa
-      - ssh -o StrictHostKeyChecking=no user@server "cd /path/to/nextjs-app && git pull origin master"  # Replace with your deployment commands
