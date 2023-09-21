@@ -13,7 +13,6 @@ steps:
       - npx create-next-app my-next-app  # Create a new Next.js app if not already created
       - cd my-next-app
       - npm install  # Install project dependencies
-      - npm run build
 
   - name: test
     image: node:14
