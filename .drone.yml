@@ -1,21 +1,27 @@
 kind: pipeline
-type: docker
 name: default
 
 steps:
-  - name: build
-    image: docker
-    commands:
-      - docker build -t my-app .
-
-  - name: test
-    image: node
+  - name: install_dependencies
+    image: node:14
     commands:
       - npm install
+
+  - name: build
+    image: node:14
+    commands:
+      - npm run build
+
+  - name: test
+    image: node:14
+    commands:
       - npm test
 
   - name: deploy
-    image: golang
+    image: alpine
     commands:
-      - go build
-      - scp my-app user@server:/path/to/deployment
+      - apk add --update openssh-client  # Install SSH client (or use a custom image with SSH pre-installed)
+      - mkdir -p ~/.ssh
+      - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa  # Add your SSH private key
+      - chmod 600 ~/.ssh/id_rsa
+      - ssh -o StrictHostKeyChecking=no user@server "cd /path/to/nextjs-app && git pull origin master"  # Replace with your deployment commands
